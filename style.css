@@ -1,0 +1,237 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  /* font-family: "Libre Baskerville", serif; */
+  font-weight: 400;
+  font-style: normal;
+  font-family: "Poppins", serif;
+  font-weight: 300;
+  font-style: normal;
+
+}
+
+.Contactus {
+  background-color: orange;
+  /* border: 1px solid orange; */
+  font-weight: bold;
+  box-shadow: 0px 0px 8px;
+
+}
+
+:root {
+  --bs-blue: #0d6efd;
+  --bs-indigo: #6610f2;
+  --bs-purple: #6f42c1;
+  --bs-pink: #d63384;
+  --bs-red: #dc3545;
+  --bs-orange: #fd7e14;
+  --bs-yellow: #ffc107;
+  --bs-green: #198754;
+  --bs-teal: #20c997;
+  --bs-cyan: #0dcaf0;
+  --bs-white: #fff;
+  --bs-gray: #6c757d;
+  --bs-gray-dark: #343a40;
+  --bs-primary: #0d6efd;
+  --bs-secondary: #6c757d;
+  --bs-success: #198754;
+  --bs-info: #0dcaf0;
+  --bs-warning: #ffc107;
+  --bs-danger: #dc3545;
+  --bs-light: #f8f9fa;
+  --bs-dark: #212529;
+  --bs-font-sans-serif: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --bs-font-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+  --bs-gradient: linear-gradient(180deg, rgba(255, 255, 255, 0.15), rgba(255, 255, 255, 0));
+}
+
+nav {
+  background: linear-gradient(-1deg,
+      rgb(255, 255, 255),
+      rgb(237, 233, 227));
+  background-position: center;
+  background-size: 400%;
+  background-attachment: fixed;
+}
+
+body {
+  background: linear-gradient(-1deg,
+      rgb(255, 255, 255),
+      rgb(237, 233, 227));
+  background-position: center;
+  background-size: 400%;
+  background-attachment: fixed;
+}
+
+ul li:hover {
+  /* background-color: rgba(240, 217, 41, 0.686); */
+  font-size: 20px;
+  font-weight: 500;
+}
+
+li {
+  padding-left: 5px;
+  font-weight: 400;
+}
+
+.section-2 {
+  font-size: 20px;
+  align-items: center;
+  padding-top: 200px;
+}
+
+.loginbtn {
+  border: 1px solid;
+  background-color: green;
+  color: aliceblue;
+
+}
+
+ul li .loginbtn:hover {
+  background-color: rgb(135, 157, 157);
+  border: 1px solid black;
+}
+
+#myname {
+  text-shadow: 2px 2px 6px;
+  color: #4a89e8;
+  letter-spacing: 3px;
+}
+
+hr {
+  font-weight: bold;
+  height: 5px;
+  font-weight: bold;
+  background-color: black;
+}
+
+hr:hover {
+  background-color: orange;
+}
+
+#mycv:hover {
+  background-color: var(--bs-dark);
+  width: 100%;
+
+}
+
+.myfirsthr {
+  margin-left: 25%;
+  background-color: #0cd175;
+}
+
+.myfirstcard {
+  box-shadow: 0px 0px 20px;
+}
+
+.myfirstcard:hover {
+  background-color: rgb(135, 153, 135);
+  color: white;
+}
+
+.mycatpic {
+  border-radius: 12px !important;
+}
+
+.mysecondcards {
+  box-shadow: 1px 1px 12px hwb(28 41% 16% / 0.882);
+}
+
+.mysecondcards:hover {
+  background-color: black;
+  color: white;
+  transition: 1s ease-in-out;
+}
+
+.mysecondcards:hover button {
+  background-color: white;
+  color: black;
+  /* font-weight: bold; */
+  transition: 1s ease-in-out;
+}
+
+.div1 {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  border: 2px solid black;
+  text-align: center;
+  color: white;
+  animation: creative 2s infinite;
+  transition: 2s;
+}
+
+@keyframes creative {
+  0% {
+    border-color: none;
+  }
+
+  75% {
+    border-color: #0dcaf0;
+  }
+}
+
+.div2 {
+  height: 80px;
+  width: 80px;
+  background-color: green;
+  border-radius: 50%;
+  border: 2px solid black;
+  text-align: center;
+  color: white;
+  animation: creative 2s infinite;
+  transition: 2s;
+}
+
+.div3 {
+  height: 80px;
+  width: 80px;
+  background-color: green;
+  border-radius: 50%;
+  border: 2px solid black;
+  text-align: center;
+  color: white;
+  animation: creative 2s infinite;
+  transition: 2s;
+}
+
+.div4 {
+  height: 80px;
+  width: 80px;
+  background-color: green;
+  border-radius: 50%;
+  border: 2px solid black;
+  text-align: center;
+  color: white;
+  animation: creative 2s infinite;
+  transition: 2s;
+}
+
+
+.myprogress1 {
+  width: 85%;
+}
+
+.myprogress2 {
+  width: 80%;
+}
+
+.myprogress3 {
+  width: 75%;
+}
+
+.myprogress4 {
+  width: 60%;
+}
+
+.footer {
+  background-color: rgb(105, 107, 106);
+  color: hsla(40, 4%, 29%, 0.244);
+  font-size: 18px;
+  letter-spacing: 2px;
+}
+
+.footer:hover {
+  letter-spacing: 1px;
+}
